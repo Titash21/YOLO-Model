@@ -3,11 +3,10 @@
 
 ###### Commands on terminal:
 ```
-git clone https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool.git
-
 cd YOLO-Annotation-Tool
+./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
 ```
-### Create 001 folder in Images folder and put your class one images
+### Make sure to have the input image folder ( 003 and 004 for the code in this repo )
 
 ### Convert to .JPEG from any type of images. Use this command(Ubuntu)
 
@@ -17,11 +16,3 @@ or
 or
 ```mogrify -format jpg *.png```
 
-### Run Main python script 
-
- ``` python main.py ```
-
-### Run convert python file for create final text file for yolo images 
-
-```python convert.py```
-# -------Progress-------
